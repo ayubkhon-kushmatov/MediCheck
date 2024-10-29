@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="vh-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white-80 fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Medical.png" alt="Medical Logo" />
+                    </a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Главная страница</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories">Пройти опрос</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Связаться с нами</a>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row vh-100 align-items-center">
+                <div class="col-md-6 card bg-transparent border-0 text-white">
+                    <div class="card-body">
+                        <h1 class="card-title display-3"> <b>MediCheck</b></h1>
+                        <h4 class="card-subtitle mb-2">Выберите симптом и ответьте на простые вопросы, используя наш MediCheck чтобы установить возможный диагноз по поводу вашего состояния здоровья.</h4>
+                        <p class="card-text py-4">Проконсультируйтесь со своим врачом, если вы считаете, что у вас серьезные проблемы со здоровьем.</p>
+                        <button class="btn btn-primary bg-mavi border-0 text-uppercase rounded-0" type="button" onclick="location.href='#categories'">Выбрать категорию болезни</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row py-5 justify-content-center align-items-center">
+                <!-- Левая сторона с картинкой -->
+                <div class="col-md-4 d-flex justify-content-start">
+                    <img class="mw-100" src="img/doctor.png" alt="Hekim baba" />
+                </div>
+                <!-- Центр с текстом -->
+                <div class="col-md-4 d-flex align-items-center">
+                    <div class="card bg-transparent border-0 text-center">
+                        <div class="card-body">
+                            <h6 class="card-title text-uppercase text-mavi" style="font-weight: bold; font-size: 1.2rem; letter-spacing: 2px;">
+                                Добро пожаловать в <span style="color: #3498db;">MediCheck</span>
+                            </h6>
+                            <p class="card-text" style="font-size: 1.1rem; line-height: 1.5; color: #6c757d; margin-bottom: 1rem;">
+                                Вы можете пройти опрос для предварительного диагноза, но для точного рекомендуется записаться на прием к врачу.
+                            </p>
+                            <div class="d-flex flex-column align-items-center mt-3">
+                                <button class="btn btn-primary bg-mavi border-0 text-uppercase rounded-0 shadow" 
+                                    type="button" 
+                                    onclick="location.href='#categories'"
+                                    style="padding: 8px 16px; font-size: 1rem; letter-spacing: 0.5px; transition: all 0.3s ease;">
+                                    Пройти опрос
+                                </button>
+                            </div>
+                            
+                            <h2 class="card-subtitle mb-2" style="font-size: 1rem; color: #444; margin-top: 20px;">
+                                Не забудьте записаться на прием к врачу для более точной диагностики.
+                            </h2>
+                            <button class="btn btn-primary bg-mavi border-0 text-uppercase rounded-0 shadow" 
+                                type="button" 
+                                onclick="location.href='#call'"
+                                style="padding: 10px 20px; font-size: 1rem; letter-spacing: 1px; transition: all 0.3s ease;">
+                                Записаться на прием
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Правая сторона с картинкой -->
+                <div class="col-md-4 d-flex justify-content-end">
+                    <img class="mw-100" src="img/doctor2.png" alt="Hekim baba" />
+                </div>
+            </div>
+        </div>
+        
+       <div class="container-fluid">
+    <div class="row bg-mavi text-white">
+        <div class="col-md-6 vh-50 order-md-1 text-center">
+            <div class="card bg-transparent border-0 vh-50">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <h6 class="card-title text-uppercase">Более 10 лет опыта</h6>
+                    <h2 class="card-subtitle mb-2">Квалифицированные врачи</h2>
+                    <p class="card-text py-4">Квалифицированные врачи — это ваш первый шаг к здоровью! Обратитесь к нашим опытным специалистам и получите качественное медицинское обслуживание.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 vh-50 order-md-0 hover-img d-flex position-relative" style="background: url('img/surgeons.jpg') center/cover; position: relative;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(185, 41, 229, 0.5); z-index: 1;"></div> <!-- Фиолетовая тень -->
+            <p class="m-auto" style="color: white; font-size: 1.5em; z-index: 2; position: relative;">Как подготовиться к операции?</p>
+        </div>
+        <div class="col-md-6 vh-50 order-md-1 text-center">
+            <div class="card bg-transparent border-0 vh-50">
+                <div class="card-body d-flex flex-column justify-content-center">
+                    <h2 class="card-subtitle mb-2">Профессиональные специалисты в области медицины.</h2>
+                    <p class="card-text py-4">Не забывайте о здоровье ваших детей! Наши специалисты помогут вам разобраться в симптомах и предотвратить распространенные детские болезни, чтобы ваш ребенок всегда чувствовал себя хорошо.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 vh-50 order-md-3 hover-img d-flex position-relative" style="background: url('img/children.jpg') center/cover; position: relative;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(172, 246, 107, 0.5); z-index: 1;"></div> <!-- Красная тень -->
+            <p class="m-auto" style="color: white; font-size: 1.5em; z-index: 2; position: relative;">Какие болезни часто встречаются у детей?</p>
+        </div>
+        
+
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="container">
+            <div class="row py-5">
+
+                <div class="col-md-4 py-5  text-center">
+                    <div class="card border-0 align-items-center">
+                        <img src="img/medicinelogo.png" class="card-img-top" alt="Modern medicine">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title py-3">Современные лекарства</h5>
+                            <p class="card-text">Мы предлагаем только самые современные и эффективные лекарственные препараты, соответствующие последним достижениям медицины. Наши врачи тщательно подбирают лекарства, основываясь на индивидуальных потребностях каждого пациента, чтобы гарантировать безопасность и эффективность лечения.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5 text-center">
+                    <div class="card border-0 align-items-center">
+                        <img src="img/personlogo.png" class="card-img-top w-55" alt="Modern medicine">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title py-3">Индивидуальный подход к пациентам</h5>
+                            <p class="card-text">Каждый пациент уникален, и мы понимаем, что требуется индивидуальный подход. Наши врачи тщательно слушают вас, учитывают ваши особенности и потребности для наилучшего результата лечения.</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="col-md-4 py-5  text-center">
+                    <div class="card border-0 align-items-center">
+                        <img src="img/healthlogo.png" class="card-img-top" alt="Modern medicine">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title py-3">Точный диагноз</h5>
+                            <p class="card-text">Мы применяем современные методы диагностики, чтобы точно определить ваше состояние. Быстрый и точный диагноз — это ключ к эффективному лечению и восстановлению.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="card border-0 align-items-center">
+                        <img src="img/medicialAidlogo.png" class="card-img-top" alt="Modern medicine">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title py-3">Первая медицинская помощь</h5>
+                            <p class="card-text">Наши специалисты готовы оказать первую помощь в экстренных ситуациях. Мы стремимся обеспечить безопасность и комфорт каждого пациента, помогая в любой сложной ситуации.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="card border-0 align-items-center">
+                        <img src="img/biologicylogo.png" class="card-img-top" alt="Modern medicine">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title py-3">Биологический анализ</h5>
+                            <p class="card-text">Проведение биологических анализов — важный этап в диагностике и лечении. Наши высококвалифицированные специалисты гарантируют точные результаты и оперативность в их получении.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="card border-0 align-items-center">
+                        <img src="img/privatedoctorlogo.png" class="card-img-top" alt="Modern medicine">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title py-3">Личный врач</h5>
+                            <p class="card-text">Наличие личного врача — это залог вашего здоровья. Мы предлагаем постоянное наблюдение и консультации, чтобы вы всегда были уверены в своем состоянии и получали необходимую поддержку.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+            <div id="categories" style="background-color:#f1f1f1;">
+            <h1 class="card-title display-3 text-center"><b>Выберите категорию болезни</b></h1>
+            <div class="container">
+                <div class="row px-5 py-5">
+                    <div class="col-sm-4 mb-4 text-center">
+                        <a href="symp2.html">
+                            <img src="img/_0001.png" class="img-fluid custom-img" alt="Детские болезни">
+                        </a>
+                        <h5 class="mt-2">Детские болезни</h5>
+                    </div>
+                    
+                    <div class="col-sm-4 mb-4 text-center">
+                        <a href="ссылка-на-страницу">
+                            <img src="img/_0040.png" class="img-fluid custom-img" alt="Женские болезни">
+                        </a>
+                        <h5 class="mt-2">Женские болезни</h5>
+                    </div>
+                
+                    <div class="col-sm-4 text-center">
+                        <a href="ссылка-на-страницу">
+                            <img src="img/_0035.png" class="img-fluid custom-img" alt="Мужские болезни">
+                        </a>
+                        <h5 class="mt-2">Мужские болезни</h5>
+                    </div>
+                </div>
+                
+                <div class="row px-5 pb-5">
+                    <div class="col-sm-4 mb-4 text-center">
+                        <a href="ссылка-на-страницу">
+                            <img src="img/_0026.png" class="img-fluid custom-img" alt="Инфекционные болезни">
+                        </a>
+                        <h5 class="mt-2">Инфекционные болезни</h5>
+                    </div>
+                
+                    <div class="col-sm-4 mb-4 text-center">
+                        <a href="ссылка-на-страницу">
+                            <img src="img/_0032.png" class="img-fluid custom-img" alt="Хронические болезни">
+                        </a>
+                        <h5 class="mt-2">Хронические болезни</h5>
+                    </div>
+                
+                    <div class="col-sm-4 text-center">
+                        <a href="ссылка-на-страницу">
+                            <img src="img/_0011.png" class="img-fluid custom-img" alt="Наследственные болезни">
+                        </a>
+                        <h5 class="mt-2">Наследственные болезни</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+            .custom-img {
+                max-width: 75%; /* уменьшение размера изображений до 75% ширины */
+                height: auto; /* сохранение пропорций */
+                border: 2px solid #00BFFF; /* голубая рамка */
+                border-radius: 5px; /* скругление углов рамки */
+                padding: 5px; /* отступ между рамкой и изображением */
+                background-color: #fff; /* белый фон внутри рамки */
+            }
+            h5 {
+                text-align: center; /* выравнивание текста по центру */
+            }
+        </style>
+        
+        
+                
+
+                </div>
+            </div>
+        </div>
+        <div id="slider" class="bg-mavi">
+            <div class="container col-md-8">
+                <div class="row justify-content-center  py-5 ">
+
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption d-md-block position-static text-white">
+                                    <h2>Наши клиенты</h2>
+                                    <p class="pb-5">Я очень доволен обслуживанием! Врачи профессионалы своего дела и всегда готовы помочь. Рекомендую всем!</p>
+                                    <h6 class="text-uppercase">Анна Смирнова</h6>
+                                    <p class="text-uppercase pb-3">Менеджер по продажам</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption d-md-block position-static text-white">
+                                    <h2>Наши клиенты</h2>
+                                    <p class="pb-5">Современная клиника с высококвалифицированными специалистами. Я нашел именно то, что искал. Огромное спасибо!</p>
+                                    <h6 class="text-uppercase">Дмитрий Иванов</h6>
+                                    <p class="text-uppercase pb-3">Предприниматель</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="carousel-caption d-md-block position-static text-white">
+                                    <h2>Наши клиенты</h2>
+                                    <p class="pb-5">Клиника, где действительно заботятся о пациентах. Индивидуальный подход и внимание к деталям. Я буду возвращаться сюда снова!</p>
+                                    <h6 class="text-uppercase">Екатерина Петрова</h6>
+                                    <p class="text-uppercase pb-3">Студентка</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption d-md-block position-static text-white">
+                                    <h2>Наши клиенты</h2>
+                                    <p class="pb-5">Профессионализм врачей и качественное обслуживание сделали мое лечение комфортным и эффективным. Рекомендую всем своим знакомым!</p>
+                                    <h6 class="text-uppercase">Сергей Лебедев</h6>
+                                    <p class="text-uppercase pb-3">Финансовый аналитик</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption d-md-block position-static text-white">
+                                    <h2>Наши клиенты</h2>
+                                    <p class="pb-5">Отличная клиника! Все врачи вежливые и опытные. Я чувствовал себя в надежных руках. Большое спасибо!</p>
+                                    <h6 class="text-uppercase">Мария Кузнецова</h6>
+                                    <p class="text-uppercase pb-3">IT-специалист</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev align-items-end pb-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                        <button class="carousel-control-next align-items-end pb-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                        <div class="carousel-indicators position-static">
+                            <button type="button" id="slider1img" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
+                            <button type="button" id="slider2img" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" id="slider3img" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" id="slider4img" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" id="slider5img" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <div id="call" class="container bg-white col-md-4">
+            <div class="row align-items-center text-center flex-column p-5">
+
+                <h4 class="card-title pt-5 pb-5">Записаться на прием к врачу</h4>
+                <input type="text" class="form-control mb-3 px-3 py-2" placeholder="Заполните ваше ФИО" />
+                <input type="text" class="form-control mb-3 px-3 py-2" placeholder="Ваш номер телефона" />
+                <input type="text" class="form-control mb-3 px-3 py-2" placeholder="Что вас беспокоит?" />
+                <textarea class="form-control px-3 py-2" placeholder="Опишите ваши симптомы" style="height: 200px"></textarea>
+                <input class="btn btn-outline-info text-uppercase rounded-0 w-50 mt-5 m-auto" type="submit" value="Отправить">
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="bg-darkblue">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="card bg-transparent text-white col-md-5 border-0 ">
+                        <div class="card-body">
+                            <h5 class="card-title">MediCheck</h5>
+
+                            <p class="card-text text-muted ">MediCheck is desgined by MediCheck by Mavlon as a part of Desgin Engineering Project. This is inspired from MediCheck and Data taken from familydoctor. Here shown data is some part of it after scrapping data through javascript.</p>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent text-white col-md-4 border-0">
+                        <div class="card-body">
+                            <h5 class="card-title pb-4">Belarus</h5>
+                            <p class="card-text text-muted ">Minsk</p>
+                            <p class="card-text text-muted ">Leonida Bedy 4k1</p>
+                            <p class="card-text text-muted "> 10040</p>
+                            <p class="card-text pt-3 text-muted "> 375-33-299-2000</p>
+                            <p class="card-text text-muted "> MediCheck@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent text-white col-md-3 border-0">
+                        <div class="card-body mb-5">
+                            <h5 class="card-title pb-4">Uzbekistan</h5>
+                            <p class="card-text text-muted ">Tashkent</p>
+                            <p class="card-text text-muted ">Mustaqilik 1</p>
+                            <p class="card-text text-muted "> 100040</p>
+                            <p class="card-text pt-3 text-muted "> 998-71-299-2000</p>
+                            <p class="card-text text-muted ">MediCheck@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+</body>
+
+</html>
